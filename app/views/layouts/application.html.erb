@@ -14,7 +14,8 @@
        <div class="nav-wrapper container">
          <a href= <%= root_path %> class="brand-logo is-fun-text">F . M</a>
          <ul id="nav-mobile" class="right hide-on-med-and-down">
-           <li><a href="#">Login / Sign up</a></li>
+           <li><%= link_to "Login / Sign up", new_user_session_path %></li>
+           <li><%= link_to "Logout", destroy_user_session_path, method: :delete %></li>
          </ul>
        </div>
      </nav>

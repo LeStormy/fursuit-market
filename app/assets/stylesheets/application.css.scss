@@ -30,3 +30,28 @@
 .is-fun-text {
   font-family: 'Caveat Brush';
 }
+
+.outline-btn {
+  border: 2px solid #EE6E73;
+}
+
+.outline-btn:hover {
+  background-color: #EE6E73;
+}
+
+.outline-btn:active {
+  background-color: #EE6E73;
+}
+
+.outline-btn:focus {
+  background-color: #EE6E73;
+}
+
+.no-shadow {
+  box-shadow: none;
+}
+
+.full-width {
+  display: block;
+  width: 100%;
+}
