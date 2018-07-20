@@ -1,10 +1,17 @@
+br
 .container
+  .card.horizontal style="box-shadow: none;"
+    .card-content
+      .flow-text
+        | It's about time to get a fursuit!
+        br
+        | We've gathered as many fursuit builders as possible in one place to make your search for fluffy happiness easier!
   .row
     .col.s6
-      .card
+      .card style="box-shadow: none;"
         .card-image
-          img src="https://pbs.twimg.com/media/DfkhrO1XUAEYkdw.jpg"
-          span.card-title
+          img src="https://onaliternote.files.wordpress.com/2016/11/wp-1480230666843.jpg"
+          span.card-title.is-fun-text
             | Open for business
         .card-content
           .flow-text
@@ -12,13 +19,13 @@
             br
             | Hurry up! Go get one!
         .card-action
-          a href="#"
+          a href = builders_path
             | Check 'em out!
     .col.s6
-      .card
+      .card style="box-shadow: none;"
         .card-image
-          img src="https://pbs.twimg.com/media/DfkhrO1XUAEYkdw.jpg"
-          span.card-title
+          img src="https://onaliternote.files.wordpress.com/2016/11/wp-1480230666843.jpg"
+          span.card-title.is-fun-text
             | All the makers
         .card-content
           .flow-text
@@ -26,5 +33,21 @@
             br
             | You can even subscribe to your favorites and get notified when they're opening for commissions!
         .card-action
-          a href="#"
+          a href = builders_path
             | Take me there!
+
+.grey.darken-4
+  br
+  .container
+    h2.white-text.is-fun-text
+      | Check out the other Howlr Lab projects!
+    .row.valign-wrapper
+      .col.s4.center-align
+        a href="http://lab.howlr.im"
+          img src="https://lab.howlr.im/images/labrador-c2a6f9d5.png" style="max-width: 100%; height: auto;"
+      .col.s1
+      .col.s8
+        .flow-text.white-text
+          | We're doing a bunch of free helpful tools for the community!
+          br
+          | Click on the doggo to check 'em out!

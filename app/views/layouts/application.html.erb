@@ -12,12 +12,35 @@
   <body class="red lighten-5">
     <nav>
        <div class="nav-wrapper container">
-         <a href="#" class="brand-logo">Fursuit Market</a>
+         <a href= <%= root_path %> class="brand-logo is-fun-text">F . M</a>
          <ul id="nav-mobile" class="right hide-on-med-and-down">
            <li><a href="#">Login / Sign up</a></li>
          </ul>
        </div>
      </nav>
+
     <%= yield %>
+
+    <footer class="page-footer">
+      <!-- <div class="container">
+       <div class="row">
+         <div class="col l4 s12">
+           <a href="http://t,me/HowlrLab" class="grey-text text-lighten-4">Telegram</p>
+         </div>
+         <div class="col l4 s12">
+           <a href="http://twitter.com/HowlrLab" class="grey-text text-lighten-4">Twitter</p>
+         </div>
+         <div class="col l4 s12">
+           <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+         </div>
+
+       </div>
+      </div> -->
+      <div class="footer-copyright">
+       <div class="container">
+       © 2018 Howlr
+       </div>
+      </div>
+    </footer>
   </body>
 </html>

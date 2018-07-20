@@ -1,0 +1,12 @@
+.col.s4
+  .card style="box-shadow: none;"
+    .card-image
+      img src="https://onaliternote.files.wordpress.com/2016/11/wp-1480230666843.jpg"
+      span.card-title.is-fun-text
+        = builder.name
+    .card-content
+      .flow-text
+        = builder.location
+    .card-action
+      a href=builder_path(builder.id)
+        | More info...

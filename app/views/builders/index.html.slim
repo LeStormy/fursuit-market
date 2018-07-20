@@ -1,0 +1,12 @@
+br
+.container
+  .card.horizontal style="box-shadow: none;"
+    .card-content
+      .flow-text
+        | INDEX
+  .row
+    - @builders.each do |builder|
+      = render partial: "card", locals: {:builder => builder}
+
+  .center-align
+    = paginate @builders
