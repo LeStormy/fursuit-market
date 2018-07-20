@@ -1,10 +1,35 @@
 br
 .container
-  .card.horizontal style="box-shadow: none;"
+  .card style="box-shadow: none;"
     .card-content
-      .flow-text
-        | SHOW
-        br
-        = @builder.name
-        br
-        = @builder.location
+      .flow-text.is-fun-text
+        h2
+          = @builder.name
+        h4
+          = @builder.location
+    .card-tabs
+      ul.tabs.tabs-fixed-width
+        li.tab.col.s4
+          a.active href="#gallery"
+            | Gallery
+        li.tab.col.s4
+          a href="#pricing"
+            | Pricing
+        li.tab.col.s4
+          a href="#contact"
+            | Contact
+    .card-content
+      #gallery.col.s12
+        | Test 1
+
+
+
+
+      #pricing.col.s12
+        | Test 2
+
+
+
+
+      #contact.col.s12
+        | Test 3

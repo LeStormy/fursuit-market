@@ -16,3 +16,12 @@
 //= require materialize
 //= require turbolinks
 //= require_tree .
+
+
+$(document).on('ready', function() {
+  $('.tabs').tabs();
+});
+
+$(document).on('ready', function() {
+  setMaterialize();
+});
